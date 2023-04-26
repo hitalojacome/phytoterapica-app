@@ -7,6 +7,7 @@ import Diferencial from './Components/Diferencial';
 
 import Inscreva from './Components/Inscreva';
 import Footer from './Components/Footer'
+import Footer2 from './Components/Footer2';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Inscreva />
       <Diferencial />
       <Footer />
+      <Footer2 />
     </div>
   );
 }

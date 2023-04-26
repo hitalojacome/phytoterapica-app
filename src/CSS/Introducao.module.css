@@ -4,9 +4,16 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 70vh;
+    filter: contrast(80%)
+}
+
+.introducao::before {
+    position: absolute;
+    backdrop-filter: blur(200px);
 }
 
 .descricao {
+    filter: none;
     text-align: left;
     width: 35%;
     margin-left: 50em;
@@ -14,11 +21,13 @@
 }
 
 .descricao p {
+    filter: none;
     font-size: 20px;
     text-align: end;
 }
 
 .descricao h1 {
+    filter: none;
     font-size: 30px;
     text-align: end;
 }
