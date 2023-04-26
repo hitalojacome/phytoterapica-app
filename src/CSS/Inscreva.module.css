@@ -1,0 +1,42 @@
+.inscreva {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    align-items: center;
+}
+
+.textos {
+    color: #3d3d3d;
+    text-align: left;
+    margin-right: 2em;
+}
+
+.textos h2 {
+    font-size: 20px;
+}
+
+.textos p {
+    font-size: 15px;
+}
+
+.ebox {
+    border: 1px solid #686666;
+    width: 35%;
+    height: 3em;
+    border-radius: 7em;
+}
+
+.News {
+    cursor: pointer;
+    color: #fff;
+    background-color: #98b020;
+    border: 1px solid #98b020;
+    border-radius: 7em;
+    height: 3em;
+    margin-left: 2em;
+}
+
+.News:hover {
+    background-color: #778a18;
+    border: 1px solid #778a18;
+}

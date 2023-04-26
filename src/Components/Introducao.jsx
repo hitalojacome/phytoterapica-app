@@ -1,4 +1,4 @@
-import styles from './Introducao.module.css';
+import styles from '../CSS/Introducao.module.css';
 
 function Introducao() {
     return(

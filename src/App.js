@@ -1,8 +1,11 @@
-import './App.css';
+import './CSS/App.css';
 import Header from './Components/Header';
 import Menu from './Components/Menu'
 import Introducao from './Components/Introducao'
 import Filtro from './Components/Filtro'
+import Diferencial from './Components/Diferencial';
+
+import Inscreva from './Components/Inscreva';
 
 function App() {
   return (
@@ -11,6 +14,10 @@ function App() {
       <Menu />
       <Introducao />
       <Filtro />
+
+      <Inscreva />
+      <Diferencial />
+      <Inscreva />
     </div>
   );
 }

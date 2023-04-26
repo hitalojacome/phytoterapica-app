@@ -1,4 +1,4 @@
-import styles from './Menu.module.css'
+import styles from '../CSS/Menu.module.css'
 
 function Menu() {
     return(

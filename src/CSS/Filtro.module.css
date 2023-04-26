@@ -1,0 +1,53 @@
+.filtros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5em;
+    color: #3d3d3d;
+}
+
+.filtros p {
+    margin-right: 1em;
+}
+
+.botoes {
+    color: #3d3d3d;
+    margin-left: 2em;
+    width: 42%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Filter {
+    border: 1.5px solid #3d3d3d;
+    color: #3d3d3d;
+    text-align: left;
+    background-color: transparent;
+    padding: 1em;
+    width: 46%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.Filter:hover {
+    border: 1.5px solid #98b020;
+    color: #98b020;
+}
+
+.Ordenar {
+    border: 1.5px solid #3d3d3d;
+    color: #3d3d3d;
+    text-align: left;
+    background-color: transparent;
+    padding: 1em;
+    width: 46%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.Ordenar:hover {
+    border: 1.5px solid #98b020;
+    color: #98b020;
+}

@@ -32,6 +32,10 @@
     border-radius: 32px;
 }
 
+.headerInfo input:hover {
+    border: 1.5px solid #98b020;
+}
+
 .desconto {
     font-size: 13px;
     color: #3d3d3d;
@@ -45,6 +49,11 @@
     box-sizing: border-box;
 }
 
+.desconto:hover {
+    color: #98b020;
+    border: 1.5px solid #98b020;
+}
+
 .icons {
     width: 16%;
     flex-direction: row;
@@ -52,4 +61,8 @@
     cursor: pointer;
     font-size: 25px;
     box-sizing: border-box;
+}
+
+.icons:hover {
+    color: #98b020;
 }

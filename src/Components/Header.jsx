@@ -1,4 +1,4 @@
-import styles from './Header.module.css'
+import styles from '../CSS/Header.module.css'
 import Logo from '../assets/logo.png'
 import { AiOutlineUser  as User } from 'react-icons/ai';
 import { CiPercent as Porcentagem } from 'react-icons/ci'
