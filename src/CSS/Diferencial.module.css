@@ -1,3 +1,42 @@
 .diferencial {
-    background-color: aqua;
+    color: #3d3d3d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1.5px solid #3d3d3d;
+}
+
+.vantagem {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5em;
+    gap: 30px;
+}
+
+.vegan, .animal, .puro {
+    display: flex;
+    width: 20em;
+    gap: 20px;
+}
+
+.icons {
+    margin-left: 2em;
+    width: 3.5em;
+}
+
+.texto {
+    text-align: left;
+}
+
+.texto span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.texto p {
+    font-size: 15px;
+}
+
+hr {
+    border: .5px solid #3d3d3d;
 }

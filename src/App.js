@@ -6,6 +6,7 @@ import Filtro from './Components/Filtro'
 import Diferencial from './Components/Diferencial';
 
 import Inscreva from './Components/Inscreva';
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
 
       <Inscreva />
       <Diferencial />
-      <Inscreva />
+      <Footer />
     </div>
   );
 }

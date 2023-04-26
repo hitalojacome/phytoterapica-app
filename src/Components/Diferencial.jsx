@@ -8,21 +8,23 @@ function Diferencial() {
         <section className={styles.diferencial}>
             <div className={styles.vantagem}>
                 <div className={styles.vegan}>
-                    <Vegano /><div className={styles.texto}>
-                        <h2>Vegano</h2>
-                        <p>sem componentes de origem animal</p>
+                    <img src={Vegano} alt='Foto' className={styles.iconsV} />
+                    <div className={styles.texto}>
+                        <p><span>Vegano</span><br />sem componentes de origem animal</p>
                     </div>
                 </div>
+                <hr />
                 <div className={styles.animal}>
-                    <Pata /><div className={styles.texto}>
-                        <h2>Cruelty-Free</h2>
-                        <p>não testado em animais</p>
+                <img src={Pata} alt='Foto' className={styles.icons} />
+                    <div className={styles.texto}>
+                        <p><span>Cruelty-Free</span><br />não testado em animais</p>
                     </div>
                 </div>
+                <hr />
                 <div className={styles.puro}>
-                    <Gotas /><div className={styles.texto}>
-                        <h2>100% Puro</h2>
-                        <p>óleos puros e naturais</p>
+                <img src={Gotas} alt='Foto' className={styles.icons} />
+                    <div className={styles.texto}>
+                        <p><span>100% Puro</span><br />óleos puros e naturais</p>
                     </div>
                     </div>
             </div>
